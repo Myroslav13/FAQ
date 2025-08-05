@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #f9eeff;
 }
 
 h1 {
@@ -64,5 +65,41 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+.upper-container {
+  background: url("./assets/images/background-pattern-desktop.svg");
+  width: 100%;
+  height: 270px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 500px;
+}
+
+.section p {
+  color: gray;
+  font-size: 0.9em;
+}
+
+.btn {
+  width: fit-content;
+  padding: 0;
+}
+
+.btn:focus {
+  border: 0px;
+}
+
+h2:hover {
+  color: #ab1ff4;
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 300px;
   }
 }
